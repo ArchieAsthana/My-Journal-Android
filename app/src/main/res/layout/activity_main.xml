@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chana.journal.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/passEditText"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:ems="10"
+        android:id="@+id/UsernameEditText"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/passEditText"
+        android:layout_alignLeft="@+id/passEditText"
+        android:layout_alignStart="@+id/passEditText" />
+
+    <TextView
+        android:text=" Welcome!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView2"
+        android:textStyle="bold|italic"
+        tools:textStyle="bold|italic"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_alignLeft="@+id/UsernameEditText"
+        android:layout_alignStart="@+id/UsernameEditText"
+         />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btLogin"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/passEditText"
+        android:layout_alignLeft="@+id/passEditText"
+        android:layout_alignStart="@+id/passEditText" />
+
+</RelativeLayout>
