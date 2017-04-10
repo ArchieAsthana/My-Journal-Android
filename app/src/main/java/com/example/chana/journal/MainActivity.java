@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (validateLogin()) {
             Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(this, Main2Activity.class);
+            Intent intent = new Intent(this, JournalEntryActivity.class);
             startActivity(intent);
         }
     }
