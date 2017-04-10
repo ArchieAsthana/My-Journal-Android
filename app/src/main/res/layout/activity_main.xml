@@ -39,14 +39,15 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text=" Welcome!"
+        android:text="Memento"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:id="@+id/textView2"
         android:textStyle="bold|italic"
-        tools:textStyle="bold|italic"
+        tools:textStyle="italic"
         android:textSize="36sp"
+        android:textColor="@color/colorPrimary"
         android:layout_alignParentTop="true"
         android:textColorHint="@color/colorPrimaryDark"
         android:layout_alignLeft="@+id/UsernameEditText"
@@ -60,13 +61,12 @@
         android:id="@+id/btLogin"
         android:textSize="18sp"
         android:textStyle="bold|italic"
-        android:layout_marginLeft="32dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="48dp"
+        android:background="@color/buttonBackground"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="34dp"
         android:layout_below="@+id/passEditText"
-        android:layout_alignLeft="@+id/passEditText"
-        android:layout_alignStart="@+id/passEditText" />
-
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false" />
 
 
 </RelativeLayout>
