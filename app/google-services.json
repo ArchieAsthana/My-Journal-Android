@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "636413797996",
+    "project_id": "mementosignin"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636413797996:android:97813feadf1c64a7",
+        "android_client_info": {
+          "package_name": "com.example.chana.journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636413797996-e2jmbpo5qhfbmetl4bnc35g66edbbbfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chana.journal",
+            "certificate_hash": "6e336111bbb976c3dace1034d7ff3ef544debfe9"
+          }
+        },
+        {
+          "client_id": "636413797996-hi8724l8qmr8ete9sgsse53km5h8qr72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmvKkTzeyxmB8yFPfbbX7UaC9Fef4GwQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

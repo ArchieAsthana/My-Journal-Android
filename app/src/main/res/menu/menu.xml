@@ -1,14 +1,22 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-            <item android:id="@+id/menu_settings"
-                android:title="New Entry"
-                android:orderInCategory="1" />
-            <item
-                android:title="Delete Entry"
-                android:orderInCategory="2" />
-            <item
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item android:id="@+id/menu_Save_Entry"
+                 android:title="Save"
+                app:showAsAction="always" />
+            <item android:id="@+id/menu_New_Entry"
+                android:title="New"
+                android:orderInCategory="2"
+                android:showAsAction="never"/>
+            <item android:id="@+id/menu_Delete_Entry"
+                android:title="Delete"
+                android:orderInCategory="3"
+                android:showAsAction="never"/>
+            <item android:id="@+id/menu_History"
                 android:title="History"
-                android:orderInCategory="3" />
-            <item
-                android:title="Sign Out"
-                android:orderInCategory="4" />
+                android:orderInCategory="4"
+                android:showAsAction="never"/>
+            <item android:id="@+id/menu_Logout"
+                android:title="Logout"
+                android:orderInCategory="5"
+                android:showAsAction="never"/>
         </menu>

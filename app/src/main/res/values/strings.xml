@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Journal</string>
-    <string-array name = "list">
+    <string name="Delete_Entry" translatable="false">"Are you sure "</string>
+    <string name="Save">Entry Saved</string>
+    <string name="title" translatable="false">HISTORY</string>
+    <string-array name="list">
         <item> Save Journal </item>
         <item> Delete Journal </item>
         <item> Journal History </item>
